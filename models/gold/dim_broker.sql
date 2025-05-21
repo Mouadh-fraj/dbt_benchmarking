@@ -4,7 +4,7 @@ select
     manager_id,
     first_name,
     last_name,
-    middle_initial,
+
     job_code,
     branch,
     office,

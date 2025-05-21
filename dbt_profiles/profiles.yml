@@ -1,0 +1,14 @@
+dbt_tpcdi:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: hbsxgeq-rb06618
+      user: MOUADH
+      password: TpRST2nZH5at5yK
+      role: ACCOUNTADMIN
+      database: TPCDI
+      warehouse: COMPUTE_WH
+      schema: PROD
+      threads: 4
+      client_session_keep_alive: False

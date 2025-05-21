@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: syndicated
-    database: tpcdi
+    database: tpc_di
     schema: digen
     loader: snowpark
 
